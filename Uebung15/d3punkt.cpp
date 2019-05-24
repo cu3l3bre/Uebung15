@@ -49,9 +49,9 @@ Punkt3D Punkt3D::operator-( Punkt3D p2)
 {
 	Punkt3D ergebnis;
 
-	int x = this->x + p2.getX();
-	int y = this->y + p2.getY();
-	int z = this->z + p2.getZ();
+	int x = this->x - p2.getX();
+	int y = this->y - p2.getY();
+	int z = this->z - p2.getZ();
 
 	ergebnis.setX(x);
 	ergebnis.setY(y);

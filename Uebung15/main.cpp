@@ -51,6 +51,18 @@ int main()
 
 
 
+	int bli = 5;
+
+	// Referenz auf die Variable bli
+	int &bla = bli;
+
+
+	cout << bli << endl;
+	cout << &bli << endl;
+	cout << &bla << endl;
+	cout << bla << endl;
+
+
 	system("pause");
 	return 0;
 }
